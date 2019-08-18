@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/logo_dialog_bg" android:padding="30.0px" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="430.0px">
+        <GridView android:scrollbarStyle="outsideInset" android:id="@id/gridview_carlogo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="20.0px" android:verticalSpacing="20.0px" android:numColumns="6" />
+    </RelativeLayout>
+</RelativeLayout>

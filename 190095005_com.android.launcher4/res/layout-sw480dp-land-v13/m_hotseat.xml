@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/m_navi_btn" android:background="@drawable/car_navi_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/m_bt_btn" android:background="@drawable/car_bt_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/m_navi_btn" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:layout_width="136.0dip" android:layout_height="fill_parent" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <include android:id="@id/qqsb_bar" android:layout_width="136.0dip" android:layout_height="fill_parent" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" layout="@layout/qsb_bar" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/m_video_btn" android:background="@drawable/car_video_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/m_set_btn" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/m_set_btn" android:background="@drawable/car_set_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

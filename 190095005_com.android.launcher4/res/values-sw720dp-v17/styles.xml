@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ClingButton">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/cling_button_bg</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingBottom">15.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/cling_dismiss</item>
+        <item name="android:paddingStart">35.0dip</item>
+        <item name="android:paddingEnd">35.0dip</item>
+    </style>
+    <style name="DropTargetButton">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:shadowColor">#ff393939</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.0</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:drawablePadding">7.5dip</item>
+        <item name="android:paddingStart">60.0dip</item>
+        <item name="android:paddingEnd">60.0dip</item>
+    </style>
+    <style name="TabIndicator.AppsCustomize" parent="@style/TabIndicator">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:maxWidth">240.0dip</item>
+        <item name="android:paddingStart">32.0dip</item>
+        <item name="android:paddingEnd">32.0dip</item>
+    </style>
+</resources>

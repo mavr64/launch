@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/qqsb_bar" android:layout_width="75.0px" android:layout_height="75.0px" android:layout_centerHorizontal="true" layout="@layout/qsb_bar" />
+    <ImageView android:id="@id/m_radio_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="75.0px" android:src="@drawable/car_radio_icon" android:layout_toLeftOf="@id/qqsb_bar" />
+    <ImageView android:id="@id/m_bt_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="75.0px" android:src="@drawable/car_bt_icon" android:layout_toLeftOf="@id/m_radio_btn" />
+    <ImageView android:id="@id/m_navi_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="75.0px" android:src="@drawable/car_navi_icon" android:layout_toLeftOf="@id/m_bt_btn" />
+    <ImageView android:id="@id/m_music_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="75.0px" android:src="@drawable/car_music_icon" android:layout_toRightOf="@id/qqsb_bar" />
+    <ImageView android:id="@id/m_video_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="75.0px" android:src="@drawable/car_video_icon" android:layout_toRightOf="@id/m_music_btn" />
+    <ImageView android:id="@id/m_set_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="75.0px" android:src="@drawable/car_set_icon" android:layout_toRightOf="@id/m_video_btn" />
+</RelativeLayout>

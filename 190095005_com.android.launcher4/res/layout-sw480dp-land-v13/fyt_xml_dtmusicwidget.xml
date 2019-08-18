@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="442.0px" android:layout_height="169.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/dt_music_layout" android:background="@drawable/fyt_dtwidget_bk1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/music_info" android:layout_width="310.0dip" android:layout_height="65.0dip" android:layout_alignParentRight="true">
+            <TextView android:textSize="20.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/music_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/music_name" android:singleLine="true" />
+            <TextView android:textSize="15.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/music_art" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/music_author" android:singleLine="true" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/music_control" android:layout_width="310.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/DTmusic_marginTop" android:layout_below="@id/music_info" android:layout_alignLeft="@id/music_info">
+            <ImageView android:id="@id/music_prev" android:layout_width="@dimen/DTbtnWidth" android:layout_height="@dimen/DTbtnHeight" android:layout_marginRight="@dimen/DTmusic_marginRight" android:src="@drawable/btn_ic_prev" android:layout_toLeftOf="@id/music_playpause" />
+            <ImageView android:id="@id/music_playpause" android:layout_width="71.0dip" android:layout_height="73.0dip" android:src="@drawable/music_pause_icon" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@id/music_next" android:layout_width="@dimen/DTbtnWidth" android:layout_height="@dimen/DTbtnHeight" android:layout_marginLeft="@dimen/DTmusic_marginRight" android:src="@drawable/btn_ic_next" android:layout_toRightOf="@id/music_playpause" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

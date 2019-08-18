@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<customicons
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher4 ">
+    <entry launcher:epkg="com.android.browser" launcher:eclazz="com.android.browser.BrowserActivity" launcher:eicon="@drawable/com_android_browser" />
+    <entry launcher:epkg="com.android.calculator2" launcher:eclazz="com.android.calculator2.Calculator" launcher:eicon="@drawable/com_android_calculator2" />
+    <entry launcher:epkg="com.android.calendar" launcher:eclazz="com.android.calendar.AllInOneActivity" launcher:eicon="@drawable/com_android_calendar" />
+    <entry launcher:epkg="com.android.providers.downloads.ui" launcher:eclazz="com.android.providers.downloads.ui.DownloadList" launcher:eicon="@drawable/com_android_providers_downloads_ui" />
+    <entry launcher:epkg="com.android.settings" launcher:eclazz="com.android.settings.Settings" launcher:eicon="@drawable/com_android_settings" />
+    <entry launcher:epkg="com.fyt.screenbutton" launcher:eclazz="com.fyt.screenbutton.Setting" launcher:eicon="@drawable/com_fyt_screenbutton" />
+    <entry launcher:epkg="com.syu.av" launcher:eclazz="com.syu.av.ActivityLaunch" launcher:eicon="@drawable/com_syu_av" />
+    <entry launcher:epkg="com.syu.bt" launcher:eclazz="com.syu.bt.act.ActBtAvStart" launcher:eicon="@drawable/com_syu_bt_act_actbtavstart" />
+    <entry launcher:epkg="com.syu.bt" launcher:eclazz="com.syu.bt.BtAct" launcher:eicon="@drawable/com_syu_bt_btact" />
+    <entry launcher:epkg="com.syu.canbus" launcher:eclazz="com.syu.canbus.ActivityLauncher" launcher:eicon="@drawable/com_syu_canbus" />
+    <entry launcher:epkg="com.syu.car" launcher:eclazz="com.syu.car.activity.MainActivity" launcher:eicon="@drawable/com_syu_car" />
+    <entry launcher:epkg="com.syu.dvd" launcher:eclazz="com.syu.dvd.ActivityLauncher" launcher:eicon="@drawable/com_syu_dvd" />
+    <entry launcher:epkg="com.syu.dvr" launcher:eclazz="com.syu.dvr.activity.MainActivity" launcher:eicon="@drawable/com_syu_dvr" />
+    <entry launcher:epkg="com.syu.eq" launcher:eclazz="com.syu.eq.Launch" launcher:eicon="@drawable/com_syu_eq" />
+    <entry launcher:epkg="com.syu.eq" launcher:eclazz="com.syu.eq.activity.MainActivity" launcher:eicon="@drawable/com_syu_eq" />
+    <entry launcher:epkg="com.syu.exdvr" launcher:eclazz="com.syu.exdvr.ActivityLaunch" launcher:eicon="@drawable/com_syu_exdvr" />
+    <entry launcher:epkg="com.syu.filemanager" launcher:eclazz="com.syu.filemanager.FileManagerActivity" launcher:eicon="@drawable/com_syu_filemanager" />
+    <entry launcher:epkg="com.syu.gallery" launcher:eclazz="com.syu.gallery.GalleryActivity" launcher:eicon="@drawable/com_syu_gallery" />
+    <entry launcher:epkg="com.syu.guide" launcher:eclazz="com.syu.guide.GuideActivity" launcher:eicon="@drawable/com_syu_guide" />
+    <entry launcher:epkg="com.syu.music" launcher:eclazz="com.syu.music.MAct" launcher:eicon="@drawable/com_syu_music" />
+    <entry launcher:epkg="com.syu.onekeynavi" launcher:eclazz="com.syu.onekeynavi.MainActivity" launcher:eicon="@drawable/com_syu_onekeynavi" />
+    <entry launcher:epkg="com.syu.radio" launcher:eclazz="com.syu.radio.Launch" launcher:eicon="@drawable/com_syu_radio" />
+    <entry launcher:epkg="com.syu.settings" launcher:eclazz="com.syu.settings.MainActivity" launcher:eicon="@drawable/com_syu_settings" />
+    <entry launcher:epkg="com.syu.steer" launcher:eclazz="com.syu.steer.Launch" launcher:eicon="@drawable/com_syu_steer" />
+    <entry launcher:epkg="com.syu.tv" launcher:eclazz="com.syu.tv.TvMain" launcher:eicon="@drawable/com_syu_tv" />
+    <entry launcher:epkg="com.syu.video" launcher:eclazz="com.syu.video.main.VideoListActivity" launcher:eicon="@drawable/com_syu_video" />
+    <entry launcher:epkg="com.syu.voice" launcher:eclazz="com.syu.voice.VoiceSetup" launcher:eicon="@drawable/com_syu_voice_voicesetup" />
+    <entry launcher:epkg="com.syu.voice" launcher:eclazz="com.syu.voice.VoiceLaunch" launcher:eicon="@drawable/com_syu_voice_voicelaunch" />
+    <entry launcher:epkg="com.syu.voice" launcher:eclazz="com.syu.voice.Launch" launcher:eicon="@drawable/com_syu_voice_voicelaunch" />
+    <entry launcher:epkg="com.vipercn.viper4android_v2" launcher:eclazz="com.vipercn.viper4android_v2.activity.ViPER4Android" launcher:eicon="@drawable/com_vipercn_viper4android_v2" />
+    <entry launcher:epkg="com.android.email" launcher:eclazz="com.android.email.activity.Welcome" launcher:eicon="@drawable/icon_email" />
+    <entry launcher:epkg="net.easyconn" launcher:eclazz="net.easyconn.WelcomeActivity" launcher:eicon="@drawable/net_easyconn" />
+    <entry launcher:epkg="com.android.chrome" launcher:eclazz="com.google.android.apps.chrome.Main" launcher:eicon="@drawable/com_android_chrome" />
+    <entry launcher:epkg="com.google.android.apps.maps" launcher:eclazz="com.google.android.maps.MapsActivity" launcher:eicon="@drawable/com_google_android_apps_maps" />
+    <entry launcher:epkg="com.google.android.music" launcher:eclazz="com.android.music.activitymanagement.TopLevelActivity" launcher:eicon="@drawable/com_google_android_music" />
+    <entry launcher:epkg="com.google.android.youtube" launcher:eclazz="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" launcher:eicon="@drawable/com_google_android_youtube" />
+    <entry launcher:epkg="ru.yandex.yandexnavi" launcher:eclazz="ru.yandex.yandexnavi.core.NavigatorActivity" launcher:eicon="@drawable/ru_yandex_yandexnavi" />
+    <entry launcher:epkg="com.vkontakte.android" launcher:eclazz="com.vkontakte.android.MainActivity" launcher:eicon="@drawable/com_vkontakte_android" />
+    <entry launcher:epkg="com.android.vending" launcher:eclazz="com.android.vending.AssetBrowserActivity" launcher:eicon="@drawable/com_android_vending" />
+    <entry launcher:epkg="com.spotify.music" launcher:eclazz="com.spotify.music.MainActivity" launcher:eicon="@drawable/com_spotify_music" />
+    <entry launcher:epkg="cn.kuwo.kwmusiccar" launcher:eclazz="cn.kuwo.kwmusiccar.WelcomeActivity" launcher:eicon="@drawable/cn_kuwo_kwmusiccar" />
+    <entry launcher:epkg="com.autonavi.amapauto" launcher:eclazz="com.autonavi.auto.remote.fill.UsbFillActivity" launcher:eicon="@drawable/com_autonavi_amapauto" />
+    <entry launcher:epkg="com.qiyi.video.pad" launcher:eclazz="org.qiyi.android.video.MainActivity" launcher:eicon="@drawable/com_qiyi_video_pad" />
+    <entry launcher:epkg="com.tencent.qqmusiccar" launcher:eclazz="com.tencent.qqmusiccar.app.activity.AppStarterActivity" launcher:eicon="@drawable/com_tencent_qqmusiccar" />
+</customicons>

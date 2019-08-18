@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="442.0px" android:layout_height="169.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/dt_layout" android:background="@drawable/fyt_dtwidget_bk2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/time_bg" android:layout_width="285.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+            <LinearLayout android:orientation="horizontal" android:id="@id/mtu_ll_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:id="@id/mtu_img_ht1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/num02" android:scaleType="fitXY" />
+                <ImageView android:id="@id/mtu_img_hu1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/num00" android:scaleType="fitXY" />
+                <ImageView android:id="@id/mtu_img_pointer" android:padding="@dimen/dt_time_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/numdot" android:scaleType="fitXY" />
+                <ImageView android:id="@id/mtu_img_mt1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/num05" android:scaleType="fitXY" />
+                <ImageView android:id="@id/mtu_img_mu1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/num05" android:scaleType="fitXY" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/dt_layou1" android:layout_width="148.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <TextView android:textSize="23.0px" android:textColor="@android:color/white" android:id="@id/dt_weekday1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:text="星期五" />
+            <TextView android:textSize="@dimen/DTlextraSize" android:textColor="@android:color/white" android:id="@id/dt_ampm1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="下午" android:layout_below="@id/dt_weekday1" android:layout_alignLeft="@id/dt_weekday1" />
+            <TextView android:textSize="23.0px" android:textColor="@android:color/white" android:id="@id/dt_date1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:text="2015-06-09" android:layout_below="@id/dt_weekday1" android:layout_alignLeft="@id/dt_weekday1" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

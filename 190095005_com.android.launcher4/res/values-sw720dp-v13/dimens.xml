@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_button_vertical_padding">8.0dip</dimen>
+    <dimen name="toolbar_button_horizontal_padding">8.0dip</dimen>
+    <dimen name="app_icon_size">72.0dip</dimen>
+    <dimen name="dragViewOffsetX">0.0dip</dimen>
+    <dimen name="dragViewOffsetY">0.0dip</dimen>
+    <dimen name="wallpaper_chooser_grid_width">196.0dip</dimen>
+    <dimen name="wallpaper_chooser_grid_height">140.0dip</dimen>
+</resources>

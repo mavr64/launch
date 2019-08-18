@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="bottom" android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/qqsb_bar" android:layout_width="@dimen/qsb_icon_width" android:layout_height="@dimen/qsb_icon_height" android:layout_alignParentBottom="true" android:layout_centerInParent="true" layout="@layout/qsb_bar" />
+    <TextView android:gravity="center_horizontal" android:id="@id/m_set_btn" android:background="@drawable/car_music_icon" android:layout_width="@dimen/set_icon_width" android:layout_height="@dimen/set_icon_height" android:layout_marginLeft="55.0dip" android:layout_toRightOf="@id/qqsb_bar" android:layout_alignBottom="@id/qqsb_bar" android:onClick="onHotseatViewClick" />
+    <TextView android:gravity="center_horizontal" android:id="@id/m_light_btn" android:background="@drawable/car_light_icon" android:layout_width="@dimen/set_icon_width" android:layout_height="@dimen/set_icon_height" android:layout_marginRight="55.0dip" android:layout_toLeftOf="@id/qqsb_bar" android:layout_alignBottom="@id/qqsb_bar" android:onClick="onHotseatViewClick" />
+</RelativeLayout>
