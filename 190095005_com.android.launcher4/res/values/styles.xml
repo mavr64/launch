@@ -107,7 +107,7 @@
         <item name="android:textAllCaps">true</item>
     </style>
     <style name="TabIndicator.AppsCustomize" parent="@style/TabIndicator">
-        <item name="android:textSize">12.0sp</item>
+		<item name="android:textSize">12.0sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:ellipsize">end</item>
         <item name="android:gravity">center</item>
@@ -116,7 +116,7 @@
         <item name="android:layout_height">fill_parent</item>
         <item name="android:singleLine">true</item>
         <item name="android:textAllCaps">true</item>
-    </style>
+	</style>
     <style name="MarketButton">
         <item name="android:textSize">18.0sp</item>
         <item name="android:textColor">@color/workspace_all_apps_and_delete_zone_text_color</item>
