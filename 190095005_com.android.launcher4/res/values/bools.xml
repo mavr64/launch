@@ -28,7 +28,7 @@
     <bool name="hotseat_layout">false</bool>
     <bool name="worksapce_switch_widget">true</bool>
     <bool name="music_bitmap_circular">false</bool>
-    <bool name="font_color">false</bool>
+    <bool name="font_color">true</bool>
     <bool name="widget_isfix">false</bool>
     <bool name="weather_show">false</bool>
     <bool name="wallpaper_show">true</bool>
